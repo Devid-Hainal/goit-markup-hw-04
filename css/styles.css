@@ -212,7 +212,7 @@ img {
   overflow: hidden;
 }
 
-.hero-item-titlm {
+.hero-item-title {
   display: flex;
   align-items: center;
   gap: 24px;
@@ -274,20 +274,22 @@ img {
   margin-bottom: 72px;
 }
 
-.protfolio-cart-item {
+.portfolio-cart-item {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 24px;
   margin-right: 0;
 }
 
-.protfolio-cart {
+.portfolio-cart {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   padding: 0px 0px 32px 0px;
   width: 264px;
   height: 380px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .text-img {
