@@ -448,6 +448,16 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
 }
+
+.container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-container {
+  margin-right: 120px;
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -467,6 +477,11 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  font-weight: 500;
+  line-height: 1.5;
+  line-height: 1.5;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
 
 .logo-foot {
@@ -476,6 +491,26 @@ img {
 .social-media {
   display: flex;
   align-items: baseline;
+}
+
+.social-list-footer {
+  display: flex;
+  gap: 16px;
+}
+
+.team-social-link {
+}
+
+.social-svg-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #31d0aa;
+  background-color: #31d0aa;
 }
 
 /* #endregion footer */
