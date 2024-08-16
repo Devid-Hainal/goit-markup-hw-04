@@ -214,6 +214,17 @@ img {
 
 .hero {
   padding: 120px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/img-name.jpeg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/img-name.jpg);
+  max-width: 1440px;
 }
 
 .visually-hidden {
@@ -545,7 +556,7 @@ img {
   background-color: #31d0aa;
 }
 
-.social-svg-link:focus{
+.social-svg-link:focus {
   background-color: #31d0aa;
 }
 
