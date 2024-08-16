@@ -421,7 +421,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  height: 100px;
+  height: 100%;
   padding: 40px 32px;
   background-color: #4d5ae5;
   transform: translateY(100%);
@@ -466,6 +466,15 @@ img {
   padding: 100px 0;
 }
 
+.container-foot {
+  display: flex;
+  align-items: baseline;
+  width: 1158px;
+  height: 112px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .footer-container {
   margin-right: 120px;
 }
@@ -485,12 +494,11 @@ img {
   display: inline-block;
 }
 .footer-text {
-  line-height: 1.5;
+  display: block;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
   font-weight: 500;
-  line-height: 1.5;
   line-height: 1.5;
   color: #ffffff;
   margin-bottom: 16px;
@@ -516,10 +524,11 @@ img {
 
 .social-list-footer {
   display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
   gap: 16px;
-}
-
-.team-social-link {
+  transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-svg-link {
