@@ -541,7 +541,7 @@ img {
   justify-content: center;
 }
 
-.social-svg-link:hover {
+.social-svg-link:hover .team-social-link:hover .social-list-footer:hover{
   background-color: #31d0aa;
 }
 
