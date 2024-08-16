@@ -545,4 +545,8 @@ img {
   background-color: #31d0aa;
 }
 
+social-svg-link .team-social-link .social-list-footer:focus{
+  background-color: #31d0aa;
+}
+
 /* #endregion footer */
