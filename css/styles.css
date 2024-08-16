@@ -148,7 +148,6 @@ img {
 .nav-link.current {
   color: #404bbf;
 }
-
 /* main */
 .main-page {
   background: #2e2f42;
@@ -156,14 +155,14 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office\ 1.jpg);
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   display: flex;
   align-items: center;
   padding: 188px 0;
-  min-width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
